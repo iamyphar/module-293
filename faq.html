@@ -37,13 +37,23 @@
                 <ul class="faq">
                     <li>
                         La différence entre une requête HTTP synchrone et asynchrone ?
+                        <ul>
+                            <li>
+                                Les requêtes synchrones bloquent le client (et donc le moteur javascript du client) jusqu'à
+                                la fin du processus ce qui cause des "freezes" (blocages de l'image à l'écran) et crée des problèmes d'expérience utilisateur au niveau responsive.
+                            </li>
+                            <li>
+                                Les requêtes asynchrones ne bloquent pas le client (le
+                                navigateur est donc réactif), et envoient une réponse lorsque que les données ont été reçues,
+                                c'est la solution qui est recommandée pour des raisons de performances.
+                            </li>
+                        </ul>
                         <p>
-                            Les requêtes synchrones bloquent le client (et donc le moteur javascript du client) jusqu'à
-                            la fin du processus. <br>
-                            Les requêtes asynchrones ne bloquent pas le client (le
-                            navigateur est donc réactif), ce qui peut
-                            poser un problème avec les mauvaises connexions (manque d'informations pendant le
-                            chargement).
+                            <span class="small">
+                            Sources : <a
+                                    href="https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Synchronous_and_Asynchronous_Requests"
+                                    target="_blank" title="MDN Mozilla"> MDN Mozilla</a>
+                            </span>
                         </p>
                     </li>
                     <li>
@@ -154,6 +164,12 @@
                         </ul>
                         <p>
                             Tous les navigateurs ne supportent pas tous les formats.
+                            <br>
+                        <span class="small">
+                            Sources : <a
+                                href="https://www.w3schools.com/html/html_media.asp"
+                                target="_blank" title="W3schools"> W3schools</a>
+                        </span>
                         </p>
                     </li>
                 </ul>
