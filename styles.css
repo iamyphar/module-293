@@ -5,7 +5,7 @@ body {
     margin: 0;
     font-family: 'Readex Pro', sans-serif;
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: 1fr auto;
     min-height: 100%;
 }
 
