@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <title>Accueil | iamyphar</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/102db41a51.js"></script>
+    <link href="styles.css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<header class="topnav" id="myTopnav">
+    <div class="container">
+        <a href="index.html" title="Accueil">Accueil</a>
+        <a href="about.html" title="À propos">À propos</a>
+        <a href="calendar.html" title="Calendrier">Calendrier</a>
+        <a class="active" href="faq.html" title="FAQ">FAQ</a>
+        <a href="contact.html" title="Contact">Contact</a>
+        <a class="icon" href="javascript:void(0);" onclick="myFunction()" title="menu">
+            <i class="fa fa-bars"></i>
+        </a>
+        <a class="logo-brand" href="index.html" title="Accueil"><img alt="logo" src="img/logo.png"></a>
+    </div>
+</header>
+
+<main>
+    <div class="bande">
+        <h1 class="text-center">FAQ</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ul class="faq">
+                    <li>
+                        La différence entre une requête HTTP synchrone et asynchrone ?
+                        <p>
+                            Les requêtes synchrones bloquent le client (et donc le moteur javascript du client) jusqu'à
+                            la fin du processus. <br>
+                            Les requêtes asynchrones ne bloquent pas le client (le
+                            navigateur est donc réactif), ce qui peut
+                            poser un problème avec les mauvaises connexions (manque d'informations pendant le
+                            chargement).
+                        </p>
+                    </li>
+                    <li>
+                        Les différences fondamentales entre Chrome, Safari et Internet Explorer, et où peut-on
+                        trouver leur compatibilité CSS ?
+                        <ul class="navigateurs">
+                            <li>
+                                Chrome est le navigateur le plus utilisé (par 65% des utilisateurs**) en partie grâce au
+                                fait qu'il ait été
+                                créé par Google et qu'il ait été dans les premiers bons navigateurs.
+                                <br>Il
+                                est le premier
+                                au "HTML5Test"* (un test qui permet de mesurer la performance à interpréter l'HTML5)
+                                mais
+                                précède Safari au "JetStream 2 benchmark"* (un test qui mesure la rapidité
+                                d'interprétation de technologies web avancées) et précède Opera et Edge à la
+                                quantité de mémoire rapide utilisée* (une partie est utilisée pour améliorer la
+                                rapidité en faisant des chargements de contenu anticipés).
+                            </li>
+                            <li>
+                                Safari est un navigateur utilisé par 18% des utilisateurs** grâce à la pré installation
+                                sur
+                                les appareils d'Apple, il n'est disponible que sur ces appareils ce qui lui permet
+                                d'avoir une optimisation qui lui permet d'atteindre la
+                                première place au "JetStream 2 benchmark"* et d'être le navigateur qui occupe le moins
+                                de stockage.
+                            </li>
+                            <li>
+                                Internet Explorer était le navigateur par défaut de Windows, depuis peu, il n'est plus
+                                mis à jour
+                                et ne supporte donc pas les nouvelles technologies ce qui fait de lui un navigateur
+                                obsolète.
+                                <br>Il a donc été remplacé par un nouveau navigateur que Microsoft propose et pré
+                                installe sur les machines sous Windows : Edge,
+                                qui entre dans le marché des navigateurs et qui dépasse même le nombre d'utilisateurs de
+                                Firefox
+                                (3,3% des utilisateurs pour Firefox contre 3,4% pour Edge**). Ce nouveau navigateur
+                                rejoint Chrome, Safari et Firefox dans les meilleurs navigateurs
+                                en terme de performance.
+                            </li>
+                        </ul>
+                        <p class="mb-0">
+                            Vous pouvez trouver les compatibilités (CSS) d'un navigateur à cette adresse : <a
+                                href="https://caniuse.com/" target="_blank" title="https://caniuse.com/">https://caniuse.com/</a>.
+                        </p>
+                        <p class="small">
+                            * Les résultats de tests sont tirés de <a
+                                href="https://uk.pcmag.com/browsers/131976/chrome-edge-firefox-opera-or-safari-which-browser-is-best"
+                                target="_blank" title="article des tests"> cet article</a> qui compare Chrome, Safari,
+                            Firefox, Edge et Opera.
+                            <br>
+                            ** Les pourcentages d'utilisateurs sont tirés de <a
+                                href="https://www.clubic.com/pro/entreprises/microsoft/actualite-377552-la-guerre-des-navigateurs-edge-est-repasse-devant-firefox-en-termes-de-parts-de-marche.html#:~:text=Selon%20les%20derni%C3%A8res%20analyses%20sign%C3%A9es,4%20%25%20pour%20celui%20de%20Microsoft."
+                                target="_blank" title="article des pourcentages d'utilisateurs"> cet article</a> qui
+                            compare Chrome, Edge, Safari et Firefox.
+                        </p>
+                    </li>
+                    <li>
+                        Mes recommandations pour programmer un site web en HTML / CSS ?
+                        <ul>
+                            <li>
+                                Avoir une bonne arborescence dans le projet.
+                            </li>
+                            <li>
+                                Avoir un code indenté et exempt d'erreur de syntaxe.
+                            </li>
+                            <li>
+                                Ne pas copier/prendre du code sur internet bêtement sans comprendre le code, car à ce
+                                moment-là, si un bug vient à surgir, il sera bien plus compliqué de trouver la source du
+                                problème.
+                            </li>
+                            <li>
+                                Utiliser Bootstrap pour économiser du temps voire avoir un meilleur rendu (que ce soit
+                                au niveau responsive ou design).
+                            </li>
+                            <li>
+                                Faire des recherches lors de blocage (en anglais de préférence, il y a toujours plus
+                                de résultats).
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        Les aspects juridiques qui doivent être pris en compte et respectés sur un site web ?
+                        <p>
+                            Tout ce qui est question de droit d'auteur (mettre les sources, etc.), et dans le cas de
+                            sites qui ne sont pas uniquement vitrine (donc qui récupèrent des données)
+                            les lois de protection de la vie privée et de protection
+                            des données personnelles entrent en vigueur (voir
+                            <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=CELEX:32016R0679"
+                               target="_blank" title="RGPD"> RGDP</a> et
+                            <a href="https://www.fedlex.admin.ch/eli/cc/1993/1945_1945_1945/fr"
+                               target="_blank" title="LPD"> LPD</a>).
+                        </p>
+                    </li>
+                    <li>
+                        Quels sont les formats multimédias supportés nativement par HTML5 ?
+                        <ul>
+                            <li>
+                                Images : APNG, GIF, ICO, JPEG, PNG et SVG.
+                            </li>
+                            <li>
+                                Vidéos : MP4, WebM et Ogg.
+                            </li>
+                            <li>
+                                Audios : MP3, WAV et Ogg.
+                            </li>
+                        </ul>
+                        <p>
+                            Tous les navigateurs ne supportent pas tous les formats.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer id="footer">
+    <div class="container">
+        <div class="d-flex align-items-center">
+            <div class="col-6">
+                <span>Made with ❤️ by Yphar</span>
+            </div>
+            <div class="col-6">
+                <a href="https://github.com/iamyphar" target="_blank" title="GitHub"><i class="fab fa-github"></i>
+                    GitHub</a><br>
+                <a href="https://www.instagram.com/yphar_/" target="_blank" title="Instagram"><i
+                        class="fab fa-instagram"></i> Instagram</a><br>
+                <a href="https://twitter.com/Yphar_" target="_blank" title="Twitter"><i class="fab fa-twitter"></i>
+                    Twitter</a><br>
+                <a href="https://www.twitch.tv/Yphar" target="_blank" title="Twitch"><i class="fab fa-twitch"></i>
+                    Twitch</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
