@@ -512,7 +512,7 @@ footer .col-6:first-child {
     }
 
     .mb-sm-0 {
-        margin-bottom: 1em;
+        margin-bottom: 1em!important;
     }
 }
 
