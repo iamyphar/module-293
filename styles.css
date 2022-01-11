@@ -465,7 +465,7 @@ footer .col-6:first-child {
     margin-top: 0;
 }
 
-.mb-0 {
+.mb-0, .mb-sm-0 {
     margin-bottom: 0;
 }
 
@@ -509,6 +509,10 @@ footer .col-6:first-child {
 
     h6 {
         font-size: 1rem;
+    }
+
+    .mb-sm-0 {
+        margin-bottom: 1em;
     }
 }
 
