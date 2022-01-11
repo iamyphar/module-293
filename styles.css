@@ -280,8 +280,9 @@ caption {
 
 /* FAQ */
 .faq {
-    padding-inline-start: 20px;
-    padding-inline-end: 20px;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    list-style-type: none;
 }
 
 .faq ul {
