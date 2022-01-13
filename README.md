@@ -1,7 +1,9 @@
 # Module 293
 
-Ce repository a été effectuer dans un cadre scolaire pour un travail pratique (le module 293 - créer et publier un site
-web)
+Ce repository a été effectuer dans un cadre scolaire pour un travail pratique (le module 293 - créer et publier un site web)
+
+LIEN DU SITE : 
+https://iamyphar.github.io/module-293/
 
 ## Les points à respecter
 
@@ -19,3 +21,4 @@ web)
 - Le site web doit contenir une page avec un tableau et une bonne mise en page
 - Toutes les pages du site doivent posséder du contenu
 - Une bonne arborescence doit être respectée pour la création des divers fichiers
+
