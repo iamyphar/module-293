@@ -46,7 +46,7 @@ main {
 }
 
 .topnav a.active {
-    color: #ffb000;
+    color: #faa214;
 }
 
 .topnav .icon {
@@ -114,7 +114,7 @@ main {
 
 /* MAIN */
 .bande {
-    background-color: #ffb000;
+    background-color: #faa214;
     padding-top: 15px;
     padding-bottom: 15px;
     color: white;
@@ -396,7 +396,7 @@ input[type="reset"] {
     display: inline-block;
     padding: 8px 12px;
     color: white;
-    background-color: #ffb000;
+    background-color: #faa214;
     border: 0;
     cursor: pointer;
     transition: all .3s ease;
@@ -409,7 +409,7 @@ input[type="reset"]:hover {
 
 /* FOOTER */
 footer {
-    background-color: #ffb000;
+    background-color: #faa214;
     color: white;
     padding-top: 30px;
     padding-bottom: 30px;
